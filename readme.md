@@ -2,6 +2,7 @@
 
 Below will detail on how to use this blog messaging platform, although this has been built using Laravel, I have made a few bespoke custom methods within the logic on what is needed for this exercise:
 
+- Please run the command "php artisan migrate". This will import the table structure within the database.
 - Please run the command "php artisan db:seed". This will import the user created for this exercise.
 - Run the following two commands "php artisan serve" and "npm run watch". This will start up both the PHP and Node servers respectively.
 - Go to http://127.0.0.1:8000 and you will be directed to the blog homepage where you are able to view posts/add comments as a generic user.
